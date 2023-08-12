@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 10120192 - Rifa Said - IF5 - UAS AKB -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".InputActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Note Baru"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Judul"/>
+
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kategori"/>
+
+    <!-- Spinner untuk List Kategori -->
+    <EditText
+        android:id="@+id/et_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp" />
+    <!-- EditText untuk Text Area Konten -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_content"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:maxLines="5"
+        android:minLines="5"
+        android:scrollbars="vertical"
+        android:hint="Masukkan konten di sini..."/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_save"
+        android:text="Tambah" />
+
+
+</LinearLayout>

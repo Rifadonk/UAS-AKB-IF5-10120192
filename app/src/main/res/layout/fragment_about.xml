@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 10120192 - Rifa Said - IF5 - UAS AKB -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="20dp"
+    >
+
+    <!-- Judul -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tentang Aplikasi"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/rifa_said"
+        android:layout_below="@id/titleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <!-- Nama -->
+    <TextView
+        android:id="@+id/namaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama : Rifadonk's Note"
+        android:layout_below="@id/logoImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+
+    <!-- Versi -->
+    <TextView
+        android:id="@+id/versionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Versi 1.0.0.0.0.2"
+        android:layout_below="@id/namaTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- Hak Cipta -->
+    <TextView
+        android:id="@+id/fiturTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developer : Rifa Said Aqil Hammam"
+        android:layout_below="@id/versionTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+    <!-- Tahun -->
+    <TextView
+        android:id="@+id/yearTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Release year : 2023"
+        android:layout_below="@id/fiturTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>

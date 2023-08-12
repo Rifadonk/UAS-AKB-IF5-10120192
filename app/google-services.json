@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "575955640688",
+    "project_id": "rifa10120192",
+    "storage_bucket": "rifa10120192.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575955640688:android:39115bfeb9467afebf6fb5",
+        "android_client_info": {
+          "package_name": "com.proyek.rifa_10120192"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "575955640688-fpsc6r6verbnn2kgg9mmpi2a29uvnpur.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeuScSGY-9quP4XNoIeMHvSAppy-LK2Nc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "575955640688-fpsc6r6verbnn2kgg9mmpi2a29uvnpur.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575955640688:android:41b18cb400598503bf6fb5",
+        "android_client_info": {
+          "package_name": "com.rifa_10120192"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "575955640688-fpsc6r6verbnn2kgg9mmpi2a29uvnpur.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeuScSGY-9quP4XNoIeMHvSAppy-LK2Nc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "575955640688-fpsc6r6verbnn2kgg9mmpi2a29uvnpur.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

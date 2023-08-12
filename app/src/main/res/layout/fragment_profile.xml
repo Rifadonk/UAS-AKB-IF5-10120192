@@ -1,0 +1,86 @@
+<!-- 10120192 - Rifa Said - IF5 - UAS AKB -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Foto Profil -->
+    <ImageView
+        android:id="@+id/fotoProfilImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/rifa_said"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <!-- NIM -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor Induk Mahasiswa:"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/nimEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan NIM"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:text="10120192" />
+    <!-- Nama -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama:"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/namaEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan nama"
+        android:minHeight="48dp"
+        android:text="Rifa Said Aqil Hammal" />
+
+
+
+    <!-- Kelas -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelas:"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/kelasEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Kelas"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:text="IF-5" />
+
+    <!-- Kelas -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Email"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:text="rifa.10120192@mahasiswa.unikom.ac.id" />
+
+
+</LinearLayout>
